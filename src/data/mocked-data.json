@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Standard Double Room with a Sea View",
+    "price": {
+      "value": 23990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Standard Double Room",
+    "price": {
+      "value": 19990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Two Bedroom Apartment",
+    "price": {
+      "value": 41690,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Luxury Double Room",
+    "price": {
+      "value": 29990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Studio Suite with Kitchenette",
+    "price": {
+      "value": 27990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Family Room with Bunk Beds",
+    "price": {
+      "value": 32990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Accessible Double Room",
+    "price": {
+      "value": 21990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Penthouse Suite with Balcony",
+    "price": {
+      "value": 59990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Single Room with City View",
+    "price": {
+      "value": 15990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Connecting Room (2 Standard Doubles)",
+    "price": {
+      "value": 43980,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Deluxe Double Room with King Bed",
+    "price": {
+      "value": 34990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Junior Suite with Sea View Terrace",
+    "price": {
+      "value": 47990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Oceanfront Double Room with Balcony",
+    "price": {
+      "value": 28990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Budget Single Room",
+    "price": {
+      "value": 12990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Studio Apartment with Balcony",
+    "price": {
+      "value": 36990,
+      "currencyCode": "CZK"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Accessible One-Bedroom Suite",
+    "price": {
+      "value": 49990,
+      "currencyCode": "CZK"
+    }
+  }
+]
