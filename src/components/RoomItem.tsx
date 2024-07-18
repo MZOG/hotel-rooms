@@ -25,7 +25,7 @@ const RoomItem = ({ room }: RoomItemProps) => {
   return (
     <div
       key={room.id}
-      className="flex flex-col justify-between border p-3 rounded-xl space-y-2"
+      className="flex flex-col justify-between border p-3 rounded-xl space-y-4"
     >
       <Image
         src="https://picsum.photos/300/300?random"
@@ -37,18 +37,26 @@ const RoomItem = ({ room }: RoomItemProps) => {
       <p className="font-medium line-clamp-1">{room.name}</p>
       <div className="flex justify-between place-items-center">
         <div>
-          <p>
-            {room?.price?.value} {room?.price.currencyCode}
+          <p className="text-sm font-medium">
+            {room.price.value} {room.price.currencyCode}
           </p>
           {availability && (
-            <p className="text-green-700">
-              {availability?.price?.value} {availability?.price?.currencyCode}
+            <p className="text-sm font-medium text-green-700">
+              {availability?.price?.value} {availability?.price?.currencyCode}{" "}
+              {!isNaN(availability?.price?.value - room.price.value) && (
+                <span className="text-xs">
+                  ({availability?.price?.value - room.price.value}{" "}
+                  {availability?.price?.currencyCode})
+                </span>
+              )}
             </p>
           )}
         </div>
 
         {!availability ? (
-          <Badge onClick={check}>Check availability</Badge>
+          <Badge onClick={check} variant="outline">
+            Check availability
+          </Badge>
         ) : (
           <Badge className="capitalize font-normal">
             {availability.availabilityStatus}
